@@ -1,5 +1,6 @@
 import React from 'react'
 import "../css/Home.css"
+import model from "../assets/Img/model5.jpg"
 
 
 const Home = () => {
@@ -29,7 +30,7 @@ const Home = () => {
       </div>
       <div className="rightbox">
         <div className="imgC">
-          <img src="model5.jpg" alt="" />
+          <img src={model} alt="" />
 
 
         </div>
