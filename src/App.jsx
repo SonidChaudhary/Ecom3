@@ -16,7 +16,9 @@ const App = () => {
       <BrowserRouter>
       <Navbar/>
       <Routes>
-        <Route path="/Ecom3"element ={<Home/>}></Route>
+        <Route path="https://sonidchaudhary.github.io/Ecom3/"element ={<Home/>}></Route>
+        {/* <Route path="https://sonidchaudhary.github.io/"element ={<Home/>}></Route> */}
+
         <Route path="/about"element ={<About/>}></Route>
         <Route path="/product"element ={<Product/>}></Route>
         <Route path="/cart"element ={<Cart/>}></Route>
